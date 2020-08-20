@@ -2,7 +2,7 @@
 ## full site build
 
 ### built with...💻
-* @Sveltejs/svelte
+* @ Sveltejs
 * Sapper
 * Netlify
 
