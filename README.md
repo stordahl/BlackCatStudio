@@ -2,9 +2,9 @@
 ## full site build
 
 ### built with...💻
-* @ Sveltejs
-* Sapper
-* Netlify
+* [Sveltejs](https://svelte.dev/)
+* [Sapper](https://sapper.svelte.dev/)
+* [Netlify](https://www.netlify.com/)
 
 __we love #JAMstack__
 
