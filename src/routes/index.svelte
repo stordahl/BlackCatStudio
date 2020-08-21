@@ -39,6 +39,7 @@
 	<div id="main-text-cont">
 		
 			<hr>
+				<!-- <h1>your website </h1> -->
 				<p class="text">
 					we understand that not every website should be built the same. 
 					this is why we specialize in a variety of different technologies; 
@@ -91,7 +92,7 @@
 }
 
 .content{
-	width:100%;
+	max-width: 100%;
 }
 #headline{
 	text-align:right;
@@ -128,7 +129,7 @@
 	flex-direction:column;
 	align-items: center;
 	justify-content: center;
-	margin:0 5rem;
+	
 }
 .text{
 	padding: 1rem;
@@ -190,6 +191,9 @@
 	}
 	.click-through-cont > button{
 		margin:.75rem;
+	}
+	#main-text-cont{
+		margin:0 5rem;
 	}
 }
 </style>
