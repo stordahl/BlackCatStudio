@@ -3,6 +3,7 @@
 <style>
     #form-cont{
         width:100%;
+        max-width:90vw;
         display:grid;
         justify-content: center;
         margin-top:2rem;

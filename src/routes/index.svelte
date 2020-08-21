@@ -57,7 +57,7 @@
 					& would love to create a product that allows you to 
 					control your own business online. 
 				</p>
-				<button>free quote</button>
+				<a href="/wp-landing"><button>free quote</button></a>
 			</div>
 			<hr>
 
@@ -71,7 +71,7 @@
 					a method of development for these use cases that is 
 					quick to build and affordable to maintain & host. 
 				</p>
-				<button style="background-color:#BB5215;">free quote</button>
+				<a href="/static-landing"><button style="background-color:#BB5215;">free quote</button></a>
 			</div>
 			<hr>
 	</div>
@@ -149,8 +149,8 @@
 	align-items: center;
 	justify-content: center;
 }
-.click-through-cont > button{
-	width:20rem;
+.click-through-cont button{
+	width:12rem;
 	height:2.5rem;
 	background-color:var(--dark-green);
 	color:white;
@@ -161,7 +161,7 @@
 	cursor: pointer;
 	font-style: italic;
 }
-.click-through-cont > button:hover{
+.click-through-cont button:hover{
 	scale:1.1;
 }
 
@@ -189,7 +189,7 @@
 	.two{
 		flex-direction:row-reverse;
 	}
-	.click-through-cont > button{
+	.click-through-cont button{
 		margin:.75rem;
 	}
 	#main-text-cont{

@@ -42,6 +42,7 @@
 	nav {
 		font-size:1.2rem;
 		font-weight: 300;
+		/* max-width:100vw; */
 	}
 	ul {
 		margin: auto;
@@ -49,7 +50,7 @@
 		display:flex;
 		justify-content: space-between;
 		width: max-content;
-		scale:0.6;
+		scale:0.5;
 	}
 
 	/* clearfix */
@@ -139,7 +140,7 @@
 	}
 	@media screen and (min-width:500px){
 		ul{
-			scale:1;
+			scale:0.6;
 		}
 		#logo{
 			flex-direction: row;
@@ -154,9 +155,15 @@
 		}
 	}
 	@media screen and (min-width:600px){
+		ul{
+			scale:0.8;
+		}
 		h1{font-size:2.5rem;}
 	}
 	@media screen and (min-width:750px){
+		ul{
+			scale:1;
+		}
 		#logo{
 			 margin: 0 3rem; 
 		}
