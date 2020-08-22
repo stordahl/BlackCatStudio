@@ -4,4 +4,4 @@
 
 </script>
 
-<Form text={ 'custom Wordpress site' }/>
+<Form text={ 'custom Wordpress site' } name={ 'wp' }/>

@@ -4,4 +4,4 @@
 
 </script>
 
-<Form text={ 'simple static site' }/>
+<Form text={ 'simple static site' } name={ 'static' }/>

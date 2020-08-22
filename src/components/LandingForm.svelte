@@ -1,11 +1,12 @@
 <script>
     export let text;
+    export let name;
 </script>
 
-<div id="form-cont">
+<div id="form-cont" netlify>
     <h1>interested in a { text }?</h1>
     <h5>drop us a line below to get the process started!</h5>
-    <form action="">
+    <form name="{ name }">
         <input type="text" name="name" placeholder="name">
         <input type="tel" name="phone" placeholder="phone">
         <input type="email" name="email" placeholder="email">
