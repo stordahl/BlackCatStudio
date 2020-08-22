@@ -23,6 +23,33 @@
 	
 </script>
 
+<header id="header">
+	<nav>
+		<ul>
+			<li><a aria-current="{segment === undefined ? 'page' : undefined}" class="striped-d-orange" href=".">home</a></li>
+			<li><a aria-current="{segment === 'services' ? 'page' : undefined}" class="striped-l-orange" href="services">services</a></li>
+			<li><a aria-current="{segment === 'team' ? 'page' : undefined}" class="striped-d-blue" href="team">our team</a></li>
+			<li><a aria-current="{segment === 'values' ? 'page' : undefined}" class="striped-l-blue" href="values">our values</a></li>
+			<li><a rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" class="striped-l-green" href="blog">blog</a></li>
+		</ul>
+	</nav>
+	<div id="logo">
+		<div id="logo-text">
+			
+			<div id="logo-main">
+				<a href="/">
+					<h1>black cat studio</h1>
+				</a>
+			</div>
+			<div id="logo-sub">
+				<h6>st. paul, mn</h6>
+				<h6>est. 2020</h6>
+			</div>
+		</div>
+		<a href="/"><img id="logo-img" src="/logo.png" alt=""></a>
+	</div>
+</header>
+
 <style>
 	:root {
 		--bg: #E0DCD8;
@@ -199,27 +226,3 @@
 		}
 	}
 </style>
-
-<header id="header">
-	<nav>
-		<ul>
-			<li><a aria-current="{segment === undefined ? 'page' : undefined}" class="striped-d-orange" href=".">home</a></li>
-			<li><a aria-current="{segment === 'services' ? 'page' : undefined}" class="striped-l-orange" href="services">services</a></li>
-			<li><a aria-current="{segment === 'team' ? 'page' : undefined}" class="striped-d-blue" href="team">our team</a></li>
-			<li><a aria-current="{segment === 'values' ? 'page' : undefined}" class="striped-l-blue" href="values">our values</a></li>
-			<li><a rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" class="striped-l-green" href="blog">blog</a></li>
-		</ul>
-	</nav>
-	<div id="logo">
-		<div id="logo-text">
-			<div id="logo-main">
-				<h1>black cat studio</h1>
-			</div>
-			<div id="logo-sub">
-				<h6>st. paul, mn</h6>
-				<h6>est. 2020</h6>
-			</div>
-		</div>
-		<a href="/"><img id="logo-img" src="/logo.png" alt=""></a>
-	</div>
-</header>
