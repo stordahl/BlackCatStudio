@@ -72,10 +72,11 @@
 
 <div id="form-cont">
     <h5>say howdy! - <span>we'd love to chat about how we can help you accomplish your goals online</span></h5>
-    <form method="POST" name="main-intake" netlify>
-        <input type="text" name="name" placeholder="name">
-        <input type="tel" name="phone" placeholder="phone">
-        <input type="email" name="email" placeholder="email">
+    <form method="POST" name="main-intake" data-netlify="true">
+        <input type="hidden" name="form-name" value="main-intake" />
+        <input type="text" name="name" placeholder="name" />
+        <input type="tel" name="phone" placeholder="phone" />
+        <input type="email" name="email" placeholder="email" />
         <textarea name="message" id="message-text-area" cols="30" rows="3" placeholder="message"></textarea>
         <button type="submit">submit</button>
     </form>
