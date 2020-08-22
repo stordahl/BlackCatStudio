@@ -12,22 +12,19 @@
 			name: 'Jacob Stordahl',
 			pronouns: 'he/him',
 			desc: 'Jacob spent the beginning of his career working as a welder/fabricator where he gained experience solving complex problems. Now as a front-end developer, Jacob is very passionate about helping business owners create digital solutions that accomplish their goals',
-			image: '/nick.jpg',
-			alt: ''
+			image: '/nick.jpg'
 		},
 		{
 			name: 'Nick Quandt',
 			pronouns: 'he/him',
-			desc: 'Jacob spent the beginning of his career working as a welder/fabricator where he gained experience solving complex problems. Now as a front-end developer, Jacob is very passionate about helping business owners create digital solutions that accomplish their goals',
-			image: '/nick.jpg',
-			alt: ''
+			desc: 'Nick is a software engineer with a passion for writing scalable solutions in Javascript, TypeScript, and Node.js. Seattle dog dad & outdoor enthusiast. Ask me anything about programming, data, bbq, or cowboy boots!',
+			image: '/nick.jpg'
 		},
 		{
 			name: 'Taelor Hill',
 			pronouns: 'they/them',
 			desc: 'Jacob spent the beginning of his career working as a welder/fabricator where he gained experience solving complex problems. Now as a front-end developer, Jacob is very passionate about helping business owners create digital solutions that accomplish their goals',
-			image: '/nick.jpg',
-			alt: ''
+			image: '/nick.jpg'
 		}
 	];
 </script>
