@@ -7,6 +7,7 @@
     <h1>interested in a { text }?</h1>
     <h5>drop us a line below to get the process started!</h5>
     <form method="POST" name="{ name }" data-netlify="true">
+        <input type="hidden" name="form-name" value="{ name }" />
         <input type="text" name="name" placeholder="name">
         <input type="tel" name="phone" placeholder="phone">
         <input type="email" name="email" placeholder="email">
