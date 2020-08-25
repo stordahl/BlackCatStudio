@@ -56,6 +56,10 @@
 		font-size: 1.4em;
 		font-weight: 500;
 	}
+	.content :global(img){
+		max-width:100%;
+		margin:2rem 0;
+	}
 
 	.content :global(pre) {
 		background-color: #f9f9f9;

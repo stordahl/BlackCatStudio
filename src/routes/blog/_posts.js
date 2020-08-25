@@ -15,13 +15,13 @@ const posts = [
 			<p>Unless you're secretly a code nerd like we are, you've probably never heard of the JAMstack. The term Jamstack was coined by Netlify CEO Mathias Biilman in 2017, who described it as:</p>
 			<h4 class="pull-quote">“A modern development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup”. </h4>
 			<p>This may have no meaning to you, but just know that this approach is very different from a traditional web architecture - which is used to build a majority of the internet. A traditional web architecture looks like this...</p>
-			<img src="/legacy-server.jpg"/>
-			<h3>What is a legacy web architecture & how does it work?</h3>
+			<img src="/legacy-server.png"/>
+			<h2>What is a legacy web architecture & how does it work?</h2>
 			<p>In a traditional architecture, when a person types a URL into their browser and hits enter, the browser sends an HTTPS request to the web server (and sometimes an additional application sever) that is responsible for that website. If the site or application has a database, the web server will then make a call to the database and ask for the data that is needed. The database then returns this data, the web server generates the page requested, fills the page with the data from the database and sends that whole package back to the browser. The browser then has to render these pages and display it for the client.</p> 
 			<p>I know that is a lot of information to take in, especially if this is your first time hearing about how the web works! At a very basic level, when you go to a URL, the web server & database work together to generate HTML files that are sent back to you. This means your browser does far less work to render the website.</p>
 			<p>This system worked great for a number of years and still powers a lot of the web. However, we have much more modern systems built now that avoid some of the cons of a traditional, server-based architecture. Some of these cons include security vulnerability, high cost, & poor performance. Let me explain how the JAMstack approach to web architecture works, and how we can avoid the issues of a legacy web architecture by using it. A JAMstack architecture  looks like this...</p>
-			<img src="/jamstack.jpg"/>
-			<h3>What is a JAMstack architecture & how is it different?</h3>
+			<img src="/jamstack.png"/>
+			<h2>What is a JAMstack architecture & how is it different?</h2>
 			<p>The JAMstack approach aims to use the way the original web worked back when Tim Berners-Lee first created Hyper Text Markup Language or HTML. HTML is the basic structure of all web pages. The original web had no advanced functionality and was essentially a way for universities to share documents with each other. With the advent of CSS (Cascading Style Sheets), developers were able to style these documents and affect how they looked in the users browser. Now, websites created like this are considered static, meaning they look the same to anyone that visits the site.</p>
 			<p>The JAM in JAMstack stands for Javascript, APIs, & Markup. All this means is that we're using:</p>
 			<ul>
