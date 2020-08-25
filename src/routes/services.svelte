@@ -72,6 +72,9 @@
 		flex-direction:column;
 		align-items:center;
 	}
+	#services-cont{
+		padding-left: 2rem;
+	}
 	h1{
 		width:100%;
 	}
@@ -81,13 +84,17 @@
 		max-width:80%;
 		align-self: center;
 	}
+	p{
+		margin-top:0;
+		margin-bottom:2.5rem;
+		font-size:1.25rem;
+		max-width:80%;
+	}
 
 	@media screen and (min-width:800px){
 		p{
 			font-size: 1.2rem;
-		}
-		hr{
-			margin:4rem 0 8rem;
+			max-width:100%;
 		}
 	}
 </style>

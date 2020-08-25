@@ -69,7 +69,7 @@
 	nav {
 		font-size:1.2rem;
 		font-weight: 300;
-		/* max-width:100vw; */
+		/* max-width:100%; */
 	}
 	ul {
 		margin: auto;
@@ -77,8 +77,12 @@
 		display:flex;
 		justify-content: space-between;
 		width: max-content;
-		scale:0.5;
+		scale:0.6;
 	}
+	ul >li:first-child , ul >li:last-child{
+		display:none;
+	}
+
 
 	/* clearfix */
 	ul::after {
@@ -161,8 +165,11 @@
 	}
 	
 	@media screen and (min-width:400px){
-		ul{
-			scale:0.8;
+		/* ul{
+			 scale:0.8; 
+		} */
+		ul >li:first-child , ul >li:last-child{
+			display:block;
 		}
 	}
 	@media screen and (min-width:500px){

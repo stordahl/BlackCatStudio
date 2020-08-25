@@ -10,7 +10,7 @@
         margin-right:2rem;
     }
     .cont{
-        margin:1.5rem 0;
+        margin-top:1.5rem;
         margin-right:.75rem;
         display:flex;
     }
