@@ -4,6 +4,7 @@
 
 <!-- javascript -->
 <script>
+	import { onMount } from 'svelte';
 	import Arrow from '../components/Arrow.svelte';
 	import Block from '../components/BlockHeading.svelte';
 	import Form from '../components/MainForm.svelte';
@@ -25,27 +26,27 @@
 	<div id="services-cont">
 		<div class="sub-cont">
 			<Block {...services[0]}/>
-			<p>full web mockups | interactive prototypes | graphic design & branding | illustration</p>
+			<p>full web mockups &nbsp; | &nbsp; interactive prototypes &nbsp; | &nbsp; graphic design & branding &nbsp; | &nbsp; illustration</p>
 		</div>
 		<div class="sub-cont">
 			<Block {...services[1]}/>
-			<p>Wordpress | server-less modern JAMstack sites | Node.js app development</p>
+			<p>Wordpress &nbsp; | &nbsp; server-less modern JAMstack sites &nbsp; | &nbsp; Node.js app development</p>
 		</div>
 		<div class="sub-cont">
 			<Block {...services[2]}/>
-			<p>seo services | Google Business account management | seo driven development</p>
+			<p>seo services &nbsp; | &nbsp; Google Business account management &nbsp; | &nbsp; seo driven development</p>
 		</div>
 		<div class="sub-cont">
 			<Block {...services[3]}/>
-			<p>Siteground Wordpress Hosting | Netlify server-less deployment | Node.js deployment</p>
+			<p>Siteground Wordpress Hosting &nbsp; | &nbsp; Netlify server-less deployment &nbsp; | &nbsp; Node.js deployment</p>
 		</div>
 		<div class="sub-cont">
 			<Block {...services[4]}/>
-			<p>error logging & monitoring | web master | content management & editing</p>
+			<p>error logging & monitoring &nbsp; | &nbsp; web master &nbsp; | &nbsp; content management & editing</p>
 		</div>
 		<div class="sub-cont">
 			<Block {...services[5]}/>
-			<p>24/7 chat support | phone & email support 9-5 CST M-F</p>
+			<p>24/7 chat support &nbsp; | &nbsp; phone & email support 9-5 CST M-F</p>
 		</div>
 	</div>
 
@@ -66,6 +67,9 @@
 		--dark-green:#4E563E;
 		--black:#1F1F1F;
 	}
+	/* .bold-pipe{
+		font-size:2rem;
+	} */
 	.content{
 		width:100%;
 		display:flex;
