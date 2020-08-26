@@ -34,6 +34,22 @@ const posts = [
 			<p>We <3 the JAMstack because it allows use to produce high quality work for those small businesses that can't afford to hire a large agency & are usually forced stumble their way through a site builder like Squarespace. It is our goal to give these companies an option that is affordable, secure, much higher quality & allows them to support a fellow small business in the process.</p>
 			<p>It's safe to say that there are certainly cases where utilizing JAMstack architecture doesn't make sense; like large apps such as Facebook. However, we believe that for small business the JAMstack brings a lot of pros to the table, especially for those who don't need full e-commerce functionality. For those looking to simply have a place to show the world what they do, and perhaps include a contact form or links to their social media channels, the JAMstack can make for a truly secure & high quality website with very little overhead cost.</p>			`
 	},
+	{
+		title: 'What is UX?',
+		slug: 'what-is-ux',
+		html: ` 
+			<h3>and why it's important for your small business</h3>
+				<br/>
+			<p>When we're designing a web site, especially for small business, the most important consideration is the <strong>users experience</strong>. Most of us think that web design is a sibling discipline to graphic design; however I would say that web design exists closer to furniture design or architecture that it does graphic design. What is comes down to is - we interact with websites and software in general the same way we do furniture or space: <strong>we're intimate with them</strong>. Now, these technologies are intertwined with every part of our lives, so if the user experience is sticky or not fluid, it causes a disruption to our lives. You may believe that the experience of your small business website is less important than at a company like Amazon or Ebay, however I'd like to raise one concern I have about this assumption.</p>
+			<p>When we think about these big companies, we see scale, wealth, resources, labor force; these are all things that allow Amazon to do the things it does; these are also things a small business doesn't have. It's also important to remember that all of these assets Amazon has can't force customers to return to their service: the thing that brings people back is the easy of use and fluidity of Amazon's software.</p>
+			<figure>
+				<img src="/ux.png"/>
+				<figcaption>Original text from Erik Flowers at <a href="http://www.uxisnotui.com/">uxisnotui.com</a></figcaption>
+			</figure>
+			<p>The challenge we must rise to consists of two parts; first we must successfully get your potential customers to chose your business over a larger competitor that has far more resources than you do. Second, we need to ensure that the user experience is pleasant and joyful enough that the potential customer will not only become a customer, but that they will also become a repeat customer.</p>
+			<p>At BCS, we're always ready to rise to that challenge! Reach out today if you want to begin the process of refining the User Experience for your customers.</p>`
+
+	},
 ];
 
 posts.forEach(post => {
