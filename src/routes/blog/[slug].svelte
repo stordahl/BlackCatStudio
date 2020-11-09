@@ -85,6 +85,9 @@
 		/* width:60vw; */
 		justify-self: center;
 	}
+	.content :global(a):hover{
+		text-decoration: underline;
+	}
 	.post-heading{
 		width:100%;
 		display:flex;
