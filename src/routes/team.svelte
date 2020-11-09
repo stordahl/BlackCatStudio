@@ -33,9 +33,9 @@
 <Arrow />
 <div id="content">
 	<h1>meet our team!</h1>
-		<Member {...members[0]}/>
-		<Member {...members[1]}/>
-		<Member {...members[2]}/>
+		{#each members as member}
+			<Member {...member}/>
+		{/each}
 		<hr>
 		<Form />
 </div>
