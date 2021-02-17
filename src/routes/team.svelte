@@ -22,9 +22,9 @@
 			image: "/nick.jpg"
 		},
 		{
-			name: "Taelor Hill",
+			name: "Milo Stordahl",
 			pronouns: "they/them",
-			desc: "Taelor is an illustrator and graphic designer, focusing primarily in creating and sharing educational content digitally. Their passions include using social media as a vehicle for social change, supporting marginalized communities, and using art as a form of activism. You can usually find them playing with their cats, worrying about all their plants, or baking something sweet.",
+			desc: "Milo is an illustrator and graphic designer, focusing primarily in creating and sharing educational content digitally. Their passions include using social media as a vehicle for social change, supporting marginalized communities, and using art as a form of activism. You can usually find them playing with their cats, worrying about all their plants, or baking something sweet.",
 			image: "/tae.jpg"
 		}
 	];
